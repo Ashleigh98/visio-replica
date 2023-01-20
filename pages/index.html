@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Space+Mono:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+    <title>Visio Replica</title>
+</head>
+<body>
+    <header>
+        <div id="nav-container">
+            <img class="nav-item" id="logo" src="/svgs/Visio_Logo_Black.svg" alt="Visio">
+            <a id='menu-link' href="menu.html"><img class="nav-item" id="menu-icon" src="/svgs/hamburger-menu.svg" alt="menu"></a>
+        </div>
+    </header>
+
+    <main>
+        <section id="carousel">
+            <div id="stripe">
+                <h4 id="left-bar"></h4>
+                <span id="right-bar"></span>
+            </div>
+
+            <div id="slide-images">
+                <img class="image-item" src="/carousel-images/carouselImage1.png" alt="image 1" >
+                <img class="image-item" src="/carousel-images/carouselImage2.png" alt="image 2" >   
+                <img class="image-item" src="/carousel-images/carouselImage3.png" alt="image 3" >
+                <img class="image-item" src="/carousel-images/carouselImage4.png" alt="image 4" >
+            </div>
+            <img onclick="nextImage()" id="next-image" src="/svgs/carousel-arrow.svg" alt="next" max-width="100%">
+            <div class="carousel-dots">
+                <img class="dot" id='dot1' src="/svgs/carouselDot.svg" alt="">
+                <img class="dot" id="dot2" src="/svgs/carouselDot.svg" alt="">
+                <img class="dot" id='dot3' src="/svgs/carouselDot.svg" alt="">
+                <img class="dot" id="dot4" src="/svgs/carouselDot.svg" alt="">
+            </div> 
+        </section>
+
+        <section id="about">
+            <p  id="about-us">Visio is an investment management firm initially founded by Patrice Moyal in 2003. The nimble, highly focused and dynamic team manage assets across listed strategies for a diversified client base that includes some of the world's largest and most sophisticated investors. </p>
+            <img id="logo-shapes" src="/svgs/visio-shapes.svg" alt="">  
+        </section>
+
+        <section id="about-links">
+            <a class="big-link" href="#">
+                <img class="arrow" src="/svgs/arrow-link.svg" alt="">
+                <p>THE VISIO <br> DIFFERENCE</p>
+            </a>
+
+            <a class="big-link" href="#">
+                <img class="arrow" src="/svgs/arrow-link.svg" alt="">
+                <p>MEET THE <br> VISIO TEAM</p> 
+            </a>
+
+            <a class="big-link" href="#">
+                <img class="arrow" src="/svgs/arrow-link.svg" alt="">
+                <p>OUR FUNDS AND <br> INVESTMENTS</p> 
+            </a>
+        </section>
+
+        <section>
+            <div class="work-links">
+
+                <a href="#">
+                    <p>HEDGE FUNDS</p>
+                    <img src="/svgs/arrow-link.svg" alt="">
+                </a>
+
+                <a href="#">
+                    <p >UNIT TRUSTS</p>
+                    <img src="/svgs/arrow-link.svg" alt="">
+                </a>
+
+                <a href="#" >
+                    <p >SEGRAGATED MANDATES</p>
+                    <img src="/svgs/arrow-link.svg" alt="">
+                </a>
+
+                <a href="#">
+                    <p>AFRICA FUNDS</p>
+                    <img src="/svgs/arrow-link.svg" alt="">
+                </a>
+    
+                <a href="#">
+                    <p>FUND PERFORMANCE</p>
+                    <img src="/svgs/arrow-link.svg" alt="">
+                </a>
+
+                <a href="#">
+                    <p>RISK MANAGEMENT</p>
+                    <img src="/svgs/arrow-link.svg" alt="">
+                </a>
+            </div>
+        </section>
+
+        <section id="stats">
+            <div class="box box1">
+                <h5 class="box-heading">THE VISIO TEAM</h5>
+                <div id="box1-sect1">
+                    <p>Visio was founded in <strong>2003</strong> and is UNPRI signatory.</p>
+                    <img class='info-svg' src="/svgs/stat1.svg" alt="">
+                </div>
+
+                <div id="box1-sect2">
+                    <p>The team consists of 18 investment professionals, 7 support staff and a business development manager</p>
+                </div>
+            </div>
+
+            <div class="box box2">
+                <h5 class="box-heading">SHAREHOLDING</h5>
+                <div id="box2-sect1">
+                    <div id="num-stats">
+                        <div class="num-stat1">
+                            <h2 id="percent1" style="color:white">68%</h2>
+                            <p id="perc-info">Staff owned</p>
+                        </div>
+                        <div class="num-stat2">
+                            <h2 id="percent2" style="color:white">32%</h2>
+                            <p id="perc-info2">Royal Investment <br/> Managers (RIM)</p>
+                        </div>
+                    </div>
+                    <img class='info-svg2' src="/svgs/stat2.svg" alt="">
+                </div>
+
+                <h5 class="second-heading">OUR CLIENTS</h5>
+                <div id="box2-sect2">
+                    <p>Pension funds, sovereign wealth funds, fund-of-funds, family offices and private client. (SA, Europe, US and Asia)</p>
+                    <img class='info-svg3' src="/svgs/stat3.svg" alt="">
+                </div>
+            </div>
+
+            <div class="box box3">
+                <h5 class="box-heading">COMPLIANCE</h5>
+                    <div id="box3-sect1">
+                        <div id="box3-sect1-info">
+                            <h3 style="color:white">Level 2 B-BBEE</h3>
+                            <p>Predominantly institutional client base, domestic and international</p>
+                        </div>
+                        <img class='info-svg4'src="/svgs/stat4.svg" alt="">
+                    </div>
+
+                <h5 class="second-heading">OFFICES</h5>
+                <div id="box3-sect2">
+                    <div class="offices">
+                            <h3 style="color:white"><strong>Johannesburg</strong></h3>
+                            <p style="font-size: small;">Head Office</p>
+                            <h3 style="color:white; margin-top: 12px;"><strong>Cape Town</strong></h3>   
+                    </div>
+                    <img class="info-svg5" src="/svgs/stat5.svg" alt="">
+                </div>
+            </div>
+        
+
+            <div class="box box4">
+                <h5 class="box-heading">TEAM EXPERIENCE</h5>
+                <div id="box4-sect1">
+                    <p class="box4-main">The 6 senior team members have been together for <strong>12 years.</strong></p>
+                    <p class="box4-sub">Team experience ranging from 25 to 4 years. Investment team has a combined experience of 255 years and average experienece of 15 years.</p>
+                </div>
+            </div>
+
+            <div class="box box5">
+                <h5 class="box-heading">ASSETS UNDER MANAGEMENT</h5>
+                <div id="box5-sect1">
+                    <h3 id="box5-sub-heading">Firm AUM of c.R35bn</h3>
+                    <div id="cash-breakdown">
+                        <div class="dividion">
+                            <h3 class="division-head">R30bn</h3>
+                            <p class="division-para">SA Pension fund mandates and unit trusts</p>
+                        </div>
+
+                        <div class="dividion">
+                            <h3 class="division-head">R1.4bn</h3>
+                            <p class="division-para">SA Hedge funds {long/short equity $ market neutral}</p>
+                        </div>
+
+                        <div class="dividion">
+                            <h3 class="division-head">R0.9bn</h3>
+                            <p class="division-para">SA Multi Asset and Fixed Interest</p>
+                        </div>
+
+                        <div class="dividion">
+                            <h3 class="division-head">$161m</h3>
+                            <p class="division-para">Pan-Africa funds</p>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+
+
+        <section id='company-qual'>
+            <div class="qual-logos">
+                <img class="qual" src="/svgs/footer-svg1.svg" alt="">
+                <img class="qual" src="/svgs/footer-svg2.svg" alt="">
+                <img class="qual" src="/svgs/footer-svg3.svg" alt="">
+            </div>
+        </section>
+
+        <section id="sign-up">
+            <p>RECEIVE VISIO MARKET NEWS, OPINIONS AND MORE</p>
+            <div class="email" >
+                <input id="email-input" type="email" placeholder="Email">
+                <input id="signup-btn" type="button" value="SIGN UP">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-col">
+            <p class="bold-text">Visio Fund Management (Pty) Ltd <br> Authorised Financial Services Provider <br> (FSP No: 49566)</p><br>
+            <p class="small-text">Visio Capital Management (Pty) Ltd <br> Autorised Financial Services Provider <br> (FSP No: 871)</p>
+        </div>
+
+        <div class="footer-col">
+            <p class="small-text">Registered Address <br>
+                5th Floor 92 Rivonia Road <br>
+                Wierda Valley <br>
+                Sandton 2196 <br>
+                Tel: +27 11 245 8900 <br>
+                Fax: +27 11 245 8915 <br>
+                info@visiofund.co.za
+            </p>
+        </div>
+
+        <div class="footer-col flex-col">
+            <div class="sub-col1 sub">
+                <p class="small-text">Visio Fund Management (Pty) Ltd <br> is a Level 2 B-BBEE Contributor.</p>
+                <br>
+                <p class="small-text">Visio Fund Management (Pty) Ltd <br> is a signatory to the Unites <br> Nations Principles for <br> Responsible Investment <br> ("UNPRI") (www.unpri.org) and <br> endorses the local responsible <br> investment codes such as Code <br> for Responsible Investment in <br> South Africa ("CRISA") <br> (www.iodsa.co.za).</p>
+            </div>
+            <div class="sub-col2 sub">
+                <a href="#">DISCLAIMER</a>
+                <a href="#" style="white-space: nowrap;">TERMS AND CONDITIONS</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const nextImg = document.getElementById('next-image');
+        const carouselImages = document.querySelectorAll('.image-item')
+        const carousel = document.querySelector('#slide-images');
+        const quote = document.getElementById('left-bar')
+
+        const dot1 = document.getElementById('dot1');
+        const dot2 = document.getElementById('dot2');
+        const dot3 = document.getElementById('dot3');
+        const dot4 = document.getElementById('dot4');
+        
+        let index = 0;
+
+        //when the page is open the first dot needs to be changed
+        dot1.style.transform = 'rotate(-30deg)'
+        dot1.style.opacity = 0.5
+        quote.textContent = 'LOOK BEYOND THE ORDINARY'
+
+        function nextImage(){
+            index++
+            carousel.style.transform = `translate(${-index * 100}%)`
+            
+            if(index === carouselImages.length){
+                index=0
+                carousel.style.transform = `translate(${-index * 100}%)` //loop the slide back to the first image
+            }
+            
+            //change the dots when clicking through the slide
+            if(index === 1){
+                dot1.style.transform = 'rotate(0deg)'
+                dot1.style.opacity = 1
+
+                dot2.style.transform = 'rotate(-30deg)'
+                dot2.style.opacity = 0.5
+
+                quote.textContent = 'WE ASPIRE TO INSPIRE'
+            } else if(index ===2){
+                dot2.style.transform = 'rotate(0deg)'
+                dot2.style.opacity = 1
+
+                dot3.style.transform = 'rotate(-30deg)'
+                dot3.style.opacity = 0.5 
+
+                quote.textContent = 'WE CAN AND WE WILL'
+            }else if(index === 3){
+                dot3.style.transform = 'rotate(0deg)'
+                dot3.style.opacity = 1
+
+                dot4.style.transform = 'rotate(-30deg)'
+                dot4.style.opacity = 0.5 
+
+                quote.textContent = 'WE LEAVE NO STONE UNTURNED'
+            }else if(index === 0){
+                dot1.style.transform = 'rotate(-30deg)'
+                dot1.style.opacity = 0.5
+
+                dot4.style.transform = 'rotate(0deg)'
+                dot4.style.opacity = 1
+
+                quote.textContent = 'LOOK BEYOND THE ORDINARY'
+            }else{
+                console.log('error')
+            }  
+        }  
+    </script>
+</body>
+</html>

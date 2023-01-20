@@ -1,0 +1,197 @@
+body{
+    background-color: #061C2C;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav-container{
+    padding: 3% 13%;
+    max-width: 1600px;  
+    width: 100%;
+}
+
+#nav-container #logo{
+    width: 180px;
+}
+
+#nav-container #exit-icon{
+    position: relative;
+    float: right;
+    top: 10px;
+}
+
+/*----------columns-------------*/
+main{
+    max-width: 1600px;
+    padding-inline: 13%;
+}
+
+#menu-links{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+h5{
+    color: #EEF0F5;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: #BFC7CC;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.7em;
+    
+}
+
+
+ul li a .arrow{
+    width: 0.5em;
+    height: 0.5em;
+    margin-right: 5px;
+}
+
+
+li{
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+
+.col1, .col2, .col3{
+    margin-right: 50px;
+}
+
+@media (max-width:870px){
+    main{
+        display: block;
+    }
+    .col1, .col2, .col3, .col4{
+        margin-top: 20px;
+    }
+}
+
+/*-------------footer--------------*/
+footer{
+    padding-inline: 13%;
+}
+
+.logo{
+    position: relative;
+    top: 245px; 
+    float: right;
+}
+
+.logo .logo-piece{
+    margin-right: 15px;
+}
+
+#piece1{
+    position: relative;
+    margin-bottom: 15px;
+    width: 30px;
+}
+
+ #piece3{
+    width: 30px;
+}
+
+#piece2{
+    width: 15px
+} 
+#piece4{
+    width: 22px;
+}
+
+#piece6{
+    width: 7px;
+}
+
+#piece7{
+    position: relative;
+    margin-bottom: 20px;
+    width: 30px;
+}
+
+@media(max-width:870px){
+    .logo{
+        position: relative;
+        top: 160px; 
+        float: right;
+    }
+}
+@media(max-width:436px){
+    #piece1{
+        width: 20px;
+        position: relative;
+        top: 3px;
+    }
+    
+     #piece3{
+        width: 20px;
+    }
+    
+    #piece2{
+        width: 13px
+    } 
+    #piece4{
+        width: 18px;
+    }
+
+    #piece5{
+        width: 23px;
+    }
+    
+    #piece6{
+        width: 5.9px;
+    }
+    
+    #piece7{
+        width: 20px;
+        position: relative;
+        
+    }
+}
+
+@media(max-width:320px){
+    #piece1{
+        width: 15px;
+        position: relative;
+        top: 7px;
+    }
+    
+     #piece3{
+        width: 15px;
+    }
+    
+    #piece2{
+        width: 8px
+    } 
+    #piece4{
+        width: 11px;
+    }
+
+    #piece5{
+        width: 15px;
+    }
+    
+    #piece6{
+        width: 3.5px;
+    }
+    
+    #piece7{
+        width: 15px;
+        position: relative;
+        top: 10px;
+    }
+}
